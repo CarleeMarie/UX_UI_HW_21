@@ -1,4 +1,16 @@
-body { background-color: red; } 
+body { background-color: red; 
+    margin: 0;
+    font-family:'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    height: 450px;
+    background-color: darkgray;
+}
+header h1 {
+    font-size: large;
+    color: fuchsia;
+    justify-content: center;
+}
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 250px; 

@@ -1,45 +1,111 @@
-body { background-color: rgb(255, 255, 255); 
-    margin: 0;
-    font-family:'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*body { background-color: red; 
+  margin: 0;
+  font-family:'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.jumbotron {
+  background-color: #8ec596;
+  padding: auto;
+  align-items: center;
+  justify-content: left;
+}
+.jumbotron h1 {
+  font-size: 72px;
+}
+.jumbotron lead {
+  font-size: auto;
+}*/
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
-    height: 450px;
-    background-color: darkgray;
+  background-color: #add790;
+  text-align: center;
 }
-header h1 {
-    font-size: large;
-    color: fuchsia;
-    justify-content: center;
+
+main {
+  flex: 1;
+  display: flex;
+  min-height: 0;
 }
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 250px; 
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-   
-  }
-  
-  /* The navigation menu links */
-  .sidenav h1 {
-    font-size: 32px;
-  }
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block; 
-  }
+
+nav {
+  background-color: orange;
+  width: 20%;
+  overflow: auto;
+  padding: 1em;
+}
+
+article {
+  width: 80%;
+  overflow: auto;
+  padding: 1em;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+
+/*.sidenav {
+  height: 100%; /* 100% Full-height */
+  /*width: 250px; 
+  position: fixed; /* Stay in place */
+  /*z-index: 1; /* Stay on top */
+  /*top: 0; /* Stay at the top */
+  /*left: 0;
+  background-color: #111; /* Black*/
+  /*overflow-x: hidden; /* Disable horizontal scroll */
+  /*padding-top: 250px; /* Place content 60px from the top */
 
 
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* The navigation menu links 
+.sidenav h1 {
+  font-size: 32px;
+  color:#8ec596;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block; 
+}
+*/
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

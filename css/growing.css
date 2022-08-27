@@ -37,24 +37,18 @@ body { background-color: rgb(252, 252, 252);
   
   .item1 { grid-area: header; }
   .item2 { grid-area: menu; }
-  .item3 { grid-area: start; }
-  .item4 { grid-area: startp; }
+  .item3 { grid-area: intro; }
+  .item4 { grid-area: introp; }
   .item5 { grid-area: photo1; }
-  .item6 { grid-area: supplies; }
-  .item7 { grid-area: suppliesp; }
-  .item8 { grid-area: link1; }
-  .item9 { grid-area: link2; }
-  .item10 { grid-area: decide; }
-  .item11 { grid-area: decidep; }
-  .item12 { grid-area: photo2; }
-  .item13 { grid-area: photo3; }
-  .item14 { grid-area: setup; }
-  .item15 { grid-area: setupp; }
-  .item16 { grid-area: photo4; }
-  .item17 { grid-area: directions; }
-  .item18 { grid-area: directionspot; }
-  .item19 { grid-area: directionswater; }
-  .item20 { grid-area: directionslight; }
+  .item6 { grid-area: tip1; }
+  .item7 { grid-area: tip1p; }
+  .item8 { grid-area: photo2; }
+  .item9 { grid-area: photo3; }
+  .item10 { grid-area: tip2; }
+  .item11 { grid-area: tip2p; }
+  .item12 { grid-area: photo4; }
+  .item13 { grid-area: tip3; }
+  .item14 { grid-area: tip3p; }
   .item21 {grid-area: footer; }
   
   
@@ -63,7 +57,7 @@ body { background-color: rgb(252, 252, 252);
     gap: 10px;
     grid-template-areas:
       'menu menu header header header header header header'
-      'menu menu start start start start start start'
+      'menu menu intro intro intro intro intro intro'
       'menu menu startp startp startp startp photo1 photo1'
       'menu menu supplies supplies supplies supplies supplies supplies'
       'menu menu suppliesp suppliesp suppliesp suppliesp suppliesp suppliesp'
@@ -82,13 +76,7 @@ body { background-color: rgb(252, 252, 252);
     background-color: rgba(255, 255, 255, 0.8);;
     padding: 10px;
   }
-  /*styling - blue background, etc*/
-  /*.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: left;
-    padding: 20px 0;
-    font-size: 30px;
-  }*/
+
   
   .item1 {
     text-align: center;
@@ -183,31 +171,7 @@ body { background-color: rgb(252, 252, 252);
     grid-row: 41 / 44;
   }
   
-  /*.sidenav {
-    height: 100%; /* 100% Full-height */
-    /*width: 250px; 
-    position: fixed; /* Stay in place */
-    /*z-index: 1; /* Stay on top */
-    /*top: 0; /* Stay at the top */
-    /*left: 0;
-    background-color: #111; /* Black*/
-    /*overflow-x: hidden; /* Disable horizontal scroll */
-    /*padding-top: 250px; /* Place content 60px from the top */
-  
-  
-  /* The navigation menu links 
-  .sidenav h1 {
-    font-size: 32px;
-    color:#8ec596;
-  }
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block; 
-  }
-  */
+ 
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {

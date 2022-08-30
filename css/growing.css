@@ -58,20 +58,15 @@ body { background-color: rgb(252, 252, 252);
     grid-template-areas:
       'menu menu header header header header header header'
       'menu menu intro intro intro intro intro intro'
-      'menu menu startp startp startp startp photo1 photo1'
-      'menu menu supplies supplies supplies supplies supplies supplies'
-      'menu menu suppliesp suppliesp suppliesp suppliesp suppliesp suppliesp'
-      'menu menu link1 link1 link1 link1 link1 link1'
-      'menu menu link2 link2 link2 link2 link2 link2'
-      'menu menu decide decide decide decide decide decide'
-      'menu menu decidep decidep photo2 photo2 photo3 photo3'
-      'menu menu setup setup setup setup setup setup'
-      'menu menu setupp setupp setupp setupp setupp setupp'
+      'menu menu introp introp introp introp photo1 photo1'
+      'menu menu tip1 tip1 tip1 tip1 tip1 tip1'
+      'menu menu tip1p tip1p tip1p tip1p tip1p tip1p'
+      'menu menu photo2 photo2 photo2 photo3 photo3 photo3'
+      'menu menu tip2 tip2 tip2 tip2 tip2 tip2'
+      'menu menu tip2p tip2p tip2p tip2p tip2p tip2p'
       'menu menu photo4 photo4 photo4 photo4 photo4 photo4'
-      'menu menu directions directions directions directions directions      directions'
-      'menu menu directionspot directionspot directionspot directionspot directionspot directionspot'
-      'menu menu directionswater directionswater directionswater directionswater directionswater directionswater'
-      'menu menu directionslight directionslight directionslight directionslight directionslight directionslight'
+      'menu menu tip3 tip3 tip3 tip3 tip3 tip3'
+      'menu menu tip3pp tip3p tip3p tip3p tip3p tip3p'
       'footer footer footer footer footer footer footer footer';
     background-color: rgba(255, 255, 255, 0.8);;
     padding: 10px;
@@ -115,60 +110,37 @@ body { background-color: rgb(252, 252, 252);
     grid-row: 9 / 13;
   }
   .item8 {
-    grid-column: 3 / 10;
+    grid-column: 4 / 5;
     grid-row: 13 / 14;
   }
   .item9 {
-    grid-column: 3 / 10;
-    grid-row: 14 / 15;
+    grid-column: 6 / 7;
+    grid-row: 13 / 14;
   }
   .item10 {
     grid-column: 3 / 10;
-    grid-row: 15 / 16;
+    grid-row: 14 / 15;
   }
   .item11 {
-    grid-column: 3 / 6;
-    grid-row: 16 / 20;
+    grid-column: 3 / 10;
+    grid-row: 15 / 19;
   }
   .item12 {
-    grid-column: 6 / 8;
-    grid-row: 16 / 20;
+    grid-column: 4 / 9;
+    grid-row: 19 / 20;
   }
   .item13 {
-    grid-column: 8 / 10;
-    grid-row: 16 / 20;
+    grid-column: 3 / 10;
+    grid-row: 20 / 24;
   }
   .item14 {
     grid-column: 3 / 10;
-    grid-row: 20;
+    grid-row: 24 / 28;
   }
-  .item15 {
-    grid-column: 3 / 10;
-    grid-row: 21 / 25;
-  }
-  .item16 {
-    grid-column: 3 / 10;
-    grid-row: 25 / 29;
-  }
-  .item17 {
-    grid-column: 3 / 10;
-    grid-row: 29 / 30;
-  }
-  .item18 {
-    grid-column: 3 / 10;
-    grid-row:  30 / 33;
-  }
-  .item19 {
-    grid-column: 3 / 10;
-    grid-row: 33 / 37;
-  }
-  .item20 {
-    grid-column: 3 / 10;
-    grid-row: 37 / 41;
-  }
+  
   .item21 {
     grid-column: 1 / 10;
-    grid-row: 41 / 44;
+    grid-row: 28 / 31;
   }
   
  

@@ -1,19 +1,4 @@
-/*body { background-color: red; 
-  margin: 0;
-  font-family:'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.jumbotron {
-  background-color: #8ec596;
-  padding: auto;
-  align-items: center;
-  justify-content: left;
-}
-.jumbotron h1 {
-  font-size: 72px;
-}
-.jumbotron lead {
-  font-size: auto;
-}*/
+
 body { background-color: rgb(252, 252, 252); 
     margin: 0;
     font-family:'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
